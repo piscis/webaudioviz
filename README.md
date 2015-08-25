@@ -32,8 +32,7 @@ Then launch the server with
 ```
 npm start
 ```
-
-Then you can browse everything in the examples directory at http://localhost:1337/ like http://localhost:1337/images/pattern.png
+Then you can browse everything in the examples directory at http://localhost:8080/ 
 
 # Load Audio
 
