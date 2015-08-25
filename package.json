@@ -1,15 +1,22 @@
 {
   "name": "webaudioviz",
   "private": true,
-  "version": "1.0.0",
-  "description": "ERROR: No README.md file found!",
-  "main": "server.js",
+  "version": "1.0.1",
+  "description": "web audio, waveforms, webgl tutorial",
   "scripts": {
     "start": "http-server ./examples"
   },
-  "repository": "piscis/webaudioviz",
+  "repository": {
+	"type": "git",
+  	"url": "https://github.com/aaronhans/webaudioviz.git"
+  },
   "author": "Aaron Hans",
   "license": "BSD",
+  "contributors": [
+	  { "name" : "Alexander Pirsig"
+	  , "email" : "self@pirsig.net"
+      , "url" : "http://pirsig.net"
+  }],
   "dependencies": {
     "http-server": "^0.8.0"
   }
